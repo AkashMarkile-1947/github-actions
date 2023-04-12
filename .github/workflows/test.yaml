@@ -1,4 +1,3 @@
-"abc"
-"abc"
-"abc"
-"abc"  
+main: "../src/main.js"
+title: demo
+date: 12/4/2023
