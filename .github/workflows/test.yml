@@ -1,8 +1,18 @@
 name: my first github action
 on: [push]
 jobs:
-    build-app:
-      runs-on: ubuntu-latest
+    print-hello-world:
+        runs-on: ubuntu-latest
         steps:
-          - uses: actions/checkout@v2
-          - run: tree
+        - run: echo "Hello world"
+        - run: echo "Bye World!"
+    print-caio-world:
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "Hello caio world"
+        - run: echo "HEHEHE"
+    build-app:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - run: tree
