@@ -1,0 +1,13 @@
+name: my first github action
+on: [push]
+jobs:
+    print-hello-world:
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "Hello world"
+        - run: echo "Bye World!"
+    print-caio-world:
+        rund-on: unbuntu-latest
+        steps:
+        - run: echo "Hello caio world"
+        - run: echo "HEHEHE"
